@@ -16,3 +16,37 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  flex-direction: column;
+  margin-left: 0px;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 40px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+#datetime-picker {
+  width: 300px;
+  height: 50px;
+  border-radius: 12px;
+  padding: 5px;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+}
+button {
+  width: auto;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+}
